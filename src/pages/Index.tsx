@@ -7,7 +7,7 @@ import { ethers } from 'ethers';
 import { token_abi } from '@/abis/token_abi';
 import { eRC7540Vault_abi } from '@/abis/eRC7540Vault_abi';
 import { INVESTMENT_MANAGER, POOL_MANAGER, RPC_PROVIDER } from '@/config/config';
-import { investmentManager_abi } from '@/abis/InvestmentManager_abi';
+import { investmentManager_abi } from '@/abis/investmentManager_abi';
 import { poolManager_abi } from '@/abis/poolManager_abi';
 import { useWallet } from '@/contexts/WalletContext';
 
